@@ -1,5 +1,10 @@
-# CircleCI Badge
-Add CircleCI Passing/Failing Badge: [link to docs](https://circleci.com/docs/status-badges/?utm_source=google&utm_medium=sem&utm_campaign=sem-google-dg--uscan-en-dsa-maxConv-auth-brand&utm_term=g_-_c__dsa_&utm_content=&gclid=Cj0KCQiAz9ieBhCIARIsACB0oGLRozHy2fiAiThYNATH7_Nw_i_2fv1oTzfkBexHpv7gn9zhKzPm_KYaAt-EEALw_wcB)
+# Python Skeleton Repo
+This is an *exploratory* skeleton repo for Python projects using both Poetry and CircleCI.
+the `pyproject.toml` is pre-loaded with dev dependenceis used in the supplied pre-commit hook and CircleCI tests.
+
+
+## CircleCI Badge
+Add CircleCI Passing/Failing Badge: [link to docs](https://circleci.com/docs/status-badges/?utm_source=google&utm_medium=sem&utm_campaign=sem-google-dg--uscan-en-dsa-maxConv-auth-brand&utm_term=g_-_c__dsa_&utm_content=&gclid=Cj0KCQiAz9ieBhCIARIsACB0oGLRozHy2fiAiThYNATH7_Nw_i_2fv1oTzfkBexHpv7gn9zhKzPm_KYaAt-EEALw_wcB)   
 (You will also likely find an easy insertion in the CircleCI section related to the repo.)
 
 ```markdown
@@ -7,7 +12,7 @@ Add CircleCI Passing/Failing Badge: [link to docs](https://circleci.com/docs/sta
 ```
 
 
-# Dev-Dependencies Specified
+## Dev-Dependencies Specified
 - formatting: `isort` & `black`
 - linting: `pylint`
 - lsp & typechecking: `pyright`
@@ -15,7 +20,7 @@ Add CircleCI Passing/Failing Badge: [link to docs](https://circleci.com/docs/sta
 - auto-documentation: `pdoc`
 
 
-# Run Pre-Commit Hook Manually
+## Run Pre-Commit Hook Manually
 from anywhere in project:
 ```zsh
 git hook run pre-commit
