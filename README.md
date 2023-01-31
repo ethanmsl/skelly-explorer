@@ -11,6 +11,11 @@ Add CircleCI Passing/Failing Badge: [link to docs](https://circleci.com/docs/sta
 [![<ORG_NAME>](https://circleci.com/<VCS>/<ORG_NAME>/<PROJECT_NAME>.svg?style=svg)](<LINK>)
 ```
 
+## GitHub Actions Badge
+Add a GitHub Actions Passing/Failing Badge: [link to docs](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge)
+```markdown
+![hidden words](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)
+```
 
 ## Dev-Dependencies Specified
 - formatting: `isort` & `black`
