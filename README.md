@@ -1,5 +1,5 @@
 # Python Skeleton Repo
-This is an *exploratory* skeleton repo for Python projects using both Poetry and CircleCI.
+This is an *exploratory* skeleton repo for Python projects using both Poetry and either/both CircleCI or GitHub_Actions.
 the `pyproject.toml` is pre-loaded with dev dependenceis used in the supplied pre-commit hook and CircleCI tests.
 
 
