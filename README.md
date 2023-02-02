@@ -30,3 +30,5 @@ from anywhere in project:
 ```zsh
 git hook run pre-commit
 ```
+
+**Note**: the `pre-commit` file needs to be placed in the `.git/hooks/` directory.
