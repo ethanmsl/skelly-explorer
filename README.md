@@ -22,7 +22,7 @@ Add a GitHub Actions Passing/Failing Badge: [link to docs](https://docs.github.c
 - linting: `pylint`
 - lsp & typechecking: `pyright`
 - testing: `pytest` + `coverage` (via `pytest-cov`)
-- auto-documentation: `pdoc`
+- auto-documentation: `pdoc` (*not* ~~"pdoc3"~~, which is a should be strongly avoided)
 
 
 ## Run Pre-Commit Hook Manually
