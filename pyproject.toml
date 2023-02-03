@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "pkg_name"
+name = "PKG_NAME"
 version = "0.1.0"
 description = ""
-authors = ["Ethan Skowronski-Lutz <33399972+ethanmsl@users.noreply.github.com>"]
+authors = ["YOUR_NAME <YOUR_ADDRESS@users.noreply.github.com>"]
 readme = "README.md"
-packages = [{include = "skelly_explor", from = "src"}]
+packages = [{include = "PKG_NAME", from = "src"}]
 
 
 # # declares name of CLI app and where the insertion point is
