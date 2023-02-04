@@ -2,7 +2,7 @@
 name = "PKG_NAME"
 version = "0.1.0"
 description = ""
-authors = ["YOUR_NAME <YOUR_ADDRESS@users.noreply.github.com>"]
+authors = ["AUTHOR_NAME <AUTHOR_EMAIL@users.noreply.github.com>"]
 readme = "README.md"
 packages = [{include = "PKG_NAME", from = "src"}]
 
